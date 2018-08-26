@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Bullet editor</title>
+
+    <style>
+        li input {
+            display: none;
+        }
+        li.edit span {
+            display: none
+        }
+        li.edit input {
+            display: initial;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1> JavaScript Bullet Editor</h1>
+    </header>
+    <main>
+        <ul id="myDetails">
+            <li>
+                <span>MS Software Engineering</span>
+                <input value="MS Software Engineering"/>
+            </li>
+            <li>
+                <span>Arizona State University</span>
+                <input value="Arizona State University"/>
+            </li>
+            <li>
+                <span>Fall 2018</span>
+                <input value="Fall 2018"/>
+            </li>
+
+        </ul>
+    </main>
+
+    <script src="scripts/bullet_editor_events.js"></script>
+</body>
+</html>
